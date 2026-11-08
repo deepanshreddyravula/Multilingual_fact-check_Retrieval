@@ -152,7 +152,12 @@ flowchart TD
    ```
 
 5. **Download the dataset:**
-   Follow instructions in [dataset/README.md](dataset/README.md) to place `fact_checks.csv` and `posts.csv` into `dataset/`.
+   Download the compressed dataset directly from the [v1.0.0 Release](https://github.com/deepanshreddyravula/Multilingual_fact-check_Retrieval/releases/tag/v1.0.0) or run:
+   ```bash
+   curl -L -O https://github.com/deepanshreddyravula/Multilingual_fact-check_Retrieval/releases/download/v1.0.0/dataset.zip
+   unzip dataset.zip
+   ```
+   Alternatively, see [dataset/README.md](dataset/README.md) for Zenodo source instructions.
 
 6. **Launch Jupyter Lab:**
    ```bash

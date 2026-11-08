@@ -12,15 +12,21 @@ This directory is configured to store the MultiClaim dataset files required by t
 
 ## Dataset Acquisition
 
-The dataset originates from the **MultiClaim** benchmark published on Zenodo:
+The dataset is available directly from this repository's **v1.0.0 GitHub Release** as well as the original Zenodo benchmark:
+
+### 1. Direct Download from GitHub Release (Recommended)
+You can download the full compressed dataset archive (`dataset.zip`, 138 MB) directly from the repository release:
+- **Direct Download Link:** [https://github.com/deepanshreddyravula/Multilingual_fact-check_Retrieval/releases/download/v1.0.0/dataset.zip](https://github.com/deepanshreddyravula/Multilingual_fact-check_Retrieval/releases/download/v1.0.0/dataset.zip)
+
+Or via command line:
+```bash
+curl -L -O https://github.com/deepanshreddyravula/Multilingual_fact-check_Retrieval/releases/download/v1.0.0/dataset.zip
+unzip dataset.zip
+```
+
+### 2. Original Zenodo Benchmark
 - **Zenodo Record:** [MultiClaim: A Benchmark for Multilingual Fact-Checking](https://zenodo.org/records/7737983)
 - **Persistent Identifier (DOI):** `10.5281/zenodo.7737983`
-
-### Instructions to Download
-
-1. Visit Zenodo: [https://zenodo.org/records/7737983](https://zenodo.org/records/7737983)
-2. Download the compressed dataset archive (`dataset_4.zip` or the individual CSV files).
-3. Extract `posts.csv` and `fact_checks.csv` into this `dataset/` directory:
    ```bash
    # Expected layout:
    dataset/
