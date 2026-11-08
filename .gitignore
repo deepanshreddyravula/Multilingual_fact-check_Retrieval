@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Datasets & large files (>100MB GitHub limit)
+dataset/fact_checks.csv
+dataset/posts.csv
+raw/
+data/
+*.zip
+*.tar.gz
+
+# Parquet, Spark temporary directories and indexes
+*.parquet
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Cached embeddings & model weights
+*.npy
+*.npz
+*.faiss
+checkpoints/
+models/
+demo/
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.log
