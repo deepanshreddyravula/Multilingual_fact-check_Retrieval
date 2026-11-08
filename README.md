@@ -1,11 +1,11 @@
 # Multilingual Fact-Check Retrieval at Scale
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepanshreddyravula/Multilingual_fact-check_Retrieval/blob/main/Big_data_MultiClaim_Multilingual_FactCheck_Retrieval.ipynb)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PySpark](https://img.shields.io/badge/PySpark-3.5%2B-orange.svg)](https://spark.apache.org/)
 [![SentenceTransformers](https://img.shields.io/badge/SentenceTransformers-3.0%2B-green.svg)](https://sbert.net/)
 [![FAISS](https://img.shields.io/badge/FAISS-CPU%2FGPU-yellow.svg)](https://github.com/facebookresearch/faiss)
 [![Dataset: MultiClaim](https://img.shields.io/badge/Dataset-MultiClaim%20(Zenodo)-lightgrey.svg)](https://zenodo.org/records/7737983)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An end-to-end, distributed Big Data information retrieval system designed to combat multilingual misinformation across global social platforms. Given an unverified social media post in any language, the pipeline retrieves matching debunking fact-checks from a corpus of over **435,000 professional fact-checks spanning 100+ languages**.
 
@@ -184,3 +184,4 @@ This project uses the **MultiClaim** benchmark dataset:
 ## 📄 License
 
 This codebase is distributed under the [MIT License](LICENSE).
+
